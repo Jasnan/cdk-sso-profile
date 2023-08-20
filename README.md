@@ -15,7 +15,7 @@ A tool to synchronise AWS SSO profiles with AWS CDK CLI
 To use `cdk-sso-profile`, you can clone the repository and install its dependencies:
 
 ```bash
-git clone [repository-url]
+git clone git@github.com:Jasnan/cdk-sso-profile.git
 cd cdk-sso-profile
 npm install
 npm link
