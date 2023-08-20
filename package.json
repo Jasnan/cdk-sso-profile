@@ -1,0 +1,23 @@
+{
+  "name": "cdk-sso-profile",
+  "version": "1.0.0",
+  "description": "A tool to synchronise AWS SSO profiles with AWS CDK CLI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "sso",
+    "cdk"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bin": {
+    "cdk-sso-profile": "./index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sso": "3.395.0"
+  }
+}
